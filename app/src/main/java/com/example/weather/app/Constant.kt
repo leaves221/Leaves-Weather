@@ -11,10 +11,5 @@ object Constant {
     //api key
     const val API_PRIVATE_KEY = ""
 
-    init {
-        //全局执行一次初始化
-        HeConfig.init(API_PUBLIC_ID,  API_PRIVATE_KEY)
-        HeConfig.switchToDevService() //切换至免费版本
-    }
 
 }

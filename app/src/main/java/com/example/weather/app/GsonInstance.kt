@@ -10,6 +10,4 @@ object GsonInstance {
             if(field == null) gson = Gson()
             return field
         }
-
-
 }
