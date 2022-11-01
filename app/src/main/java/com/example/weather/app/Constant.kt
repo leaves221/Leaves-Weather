@@ -1,9 +1,10 @@
-package com.example.weather
+package com.example.weather.app
+
 
 import com.qweather.sdk.view.HeConfig
-import com.qweather.sdk.view.QWeather
-import kotlinx.coroutines.flow.flow
 
+
+//存放常量的类
 object Constant {
     // api id
     const val API_PUBLIC_ID = "HE2210311349181928"
@@ -12,7 +13,7 @@ object Constant {
 
     init {
         //全局执行一次初始化
-        HeConfig.init("PublicId", "PrivateKey")
+        HeConfig.init(API_PUBLIC_ID,  API_PRIVATE_KEY)
         HeConfig.switchToDevService() //切换至免费版本
     }
 
