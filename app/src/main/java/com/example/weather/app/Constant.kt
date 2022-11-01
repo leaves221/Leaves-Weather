@@ -12,4 +12,14 @@ object Constant {
     const val API_PRIVATE_KEY = ""
 
 
+    /*
+    class RequestCode {
+        companion object {
+            const val Internet = 100
+            const val ACCESS_COARSE_LOCATION = 101
+            const val ACCESS_FINE_LOCATION = 102
+        }
+    }
+     */
+
 }
