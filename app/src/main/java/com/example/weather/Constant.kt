@@ -13,7 +13,7 @@ object Constant {
     init {
         //全局执行一次初始化
         HeConfig.init("PublicId", "PrivateKey")
-        
+        HeConfig.switchToDevService() //切换至免费版本
     }
 
 }
